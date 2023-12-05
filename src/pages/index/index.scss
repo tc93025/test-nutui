@@ -1,0 +1,77 @@
+.nutui-react-demo {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  --nutui-brand-color: #008cff;
+  --nutui-brand-color-start: #008cff;
+  --nutui-color-primary: #008cff;
+  --nutui-brand-color-end: #0073ff;
+  --nutui-color-primary-stop-2: #008cff;
+  --nutui-brand-link-color: #008cff;
+  --nutui-brand-text-color: #fff;
+  --nutui-notify-primary-background-color: #3ca0ff;
+  --nutui-notify-success-background-color: #00cb83;
+  --nutui-notify-danger-background-color: #e64600;
+  --nutui-notify-warning-background-color: #ff9600;
+  --nutui-gray-0: #000;
+  --nutui-gray-1: #333;
+  --nutui-gray-2: #666;
+  --nutui-gray-3: #ccc;
+  --nutui-gray-4: #f2f2f2;
+  --nutui-gray-5: #f8f8f8;
+  --nutui-gray-6: #fff;
+  --nutui-gray-7: rgba(0, 0, 0, 0.6);
+  --nutui-gray-9: #eee;
+  --nutui-font-weight-bold: 500;
+  --nutui-button-border-radius: 1.067vw;
+  --nutui-cell-border-radius: 0.8vw;
+  --nutui-form-item-error-message-color: #e64600;
+  --nutui-form-item-required-color: #e64600;
+  --nutui-radio-label-disable-color: #ccc;
+  --nutui-radio-button-disabled-active-background: #eee;
+  --nutui-radio-label-button-background: #f4faff;
+}
+
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  margin-bottom: 30px;
+}
+
+.title {
+  display: block;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.btn {
+  display: block;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.dada-ico {
+  font-size: 4.267vw;
+}
+
+.nut-tabs {
+  .nut-tabs__titles-item--active .nut-tabs__titles-item__line {
+    background: linear-gradient(90deg, #008cff, #f4faff);
+    background: var(
+      --nutui-tabs-horizontal-tab-line-color,
+      linear-gradient(90deg, var(--nutui-brand-color) 0, #f4faff 100%)
+    );
+  }
+}
+.nut-radio .nut-radio__button {
+  border-color: #f8f8f8 !important;
+}
+/*# sourceMappingURL=main.593d4510.css.map*/
+
+// $primary-color: #008cff;
+// $primary-color-end: #008cff;
